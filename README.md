@@ -4,7 +4,7 @@ Find the largest possible on a board while avoiding obstacles
 
 ## Getting started
 
-These instructions will allow you to get a copy of the project running on your local machine for development and testing purposes.
+These instructions will allow you to get a copy of the project running on your local machine for development and testing purposes
 
 ### Prerequisites
 
@@ -23,4 +23,4 @@ make
 # run the project
 ./bsq map.txt
 ```
-You can find all the map in the " mouli-map " files
+You can find all the map in the " mouli-maps " files
