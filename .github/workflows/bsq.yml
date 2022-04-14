@@ -1,0 +1,16 @@
+name: BSQ
+
+on:
+  push:
+jobs:
+  check_program_compilation:
+    runs-on: ubuntu-latest
+    container:
+      image:  epitechcontent/epitest-docker:latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Compilation
+        run:  |
+          make
